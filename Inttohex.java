@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Inttohex {
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        String hex=Integer.toHexString(a);
+        System.out.println(hex.toUpperCase());
+    }
+}
